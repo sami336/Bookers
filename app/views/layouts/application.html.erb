@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WebCampBackendNew</title>
-    <meta name="csrf-param" content="authenticity_token">
-    <meta name="csrf-token" content="L1OMtV69CCB01f1zmNU3QpiVqUM24G78dQsRUCOmmwi8XY9O/jV+wQWml9uJwloVUUFVoXOzZKCTxJ6N/zZeOg==">
+    <title>Bookers</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+       <%= yield %>
   </body>
 </html>
